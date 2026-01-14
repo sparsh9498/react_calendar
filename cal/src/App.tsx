@@ -2,6 +2,7 @@ import React from 'react';
 import moment from 'moment';
 import './App.css';
 import Calender from './calender/calender';
+import Counter from './counter/Counter';
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
         <button data-testid="input-date" onClick={getCal}>Submit</button>
       </div>
       <Calender date={someDate} />
+      <br />
+      <h2>Every Second's Counter</h2>
+      <Counter />
     </div>
   );
 }
