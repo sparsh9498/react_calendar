@@ -3,6 +3,7 @@ import moment from 'moment';
 import './App.css';
 import Calender from './calender/calender';
 import Counter from './counter/Counter';
+import SearchBar from './searchBar/SearchBar';
 
 function App() {
 
@@ -32,6 +33,9 @@ function App() {
       <br />
       <h2>Every Second's Counter</h2>
       <Counter />
+      <br />
+      <h2>SearchBar & debounce for API calls (means 2sec delay)</h2>
+      <SearchBar />
     </div>
   );
 }
